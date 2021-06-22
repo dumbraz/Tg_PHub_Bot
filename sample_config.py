@@ -1,4 +1,4 @@
-HEROKU = True  # NOTE Make it false if you're not deploying on heroku.
+HEROKU = False  # NOTE Make it false if you're not deploying on heroku.
 
 # NOTE these values are for heroku.
 if HEROKU:
@@ -9,5 +9,5 @@ if HEROKU:
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
-    Bot_token = "Insert Bot_Token Here"
-    ARQ_API_KEY = "Get this from @ARQRobot"
+    Bot_token = "1722989298:AAF0mjgX_G1pI8R9_NnCg-Zk1Ui97XofkOk"
+    ARQ_API_KEY = "DQDRUO-EGEFIC-TQQNNS-YWAHKA-ARQ"
